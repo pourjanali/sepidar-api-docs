@@ -52,10 +52,4 @@ For the official **version 110** documentation published by Sepidar System, plea
 
 ---
 
-## 🏷️ Tags / Keywords
-
-`Sepidar`, `API`, `Swagger UI`, `Documentation`, `REST API`, `Accounting API`, `ERP API`, `Sepidar System`, `OpenAPI`, `GitHub Pages`, `Static Docs`, `Web Service`, `سپیدار`, `مستندات`, `ای پی آی`, `وب سرویس`, `حسابداری`, `نرم افزار مالی`, `سپیدار سیستم`, `داکیومنت`, `مستندات سپیدار`
-
----
-
 #### 🛠 Maintained by [Behnam Pourjanali](https://github.com/pourjanali)
