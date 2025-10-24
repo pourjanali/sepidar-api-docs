@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+  This file is now configured to use local CSS and JS files
+  to mirror the official Sepidar documentation.
+-->
+<html lang="en"> 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <!-- Title and Favicons from the official Sepidar source -->
+  <title>Sepidar API</title>
+  <!-- 
+    FIX: Pointing to local favicons to avoid Cross-Origin (CORS) errors.
+    You must download these two .png files and add them to the 'docs' folder.
+  -->
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16">
+  
+  <!-- 1. Import local CSS files -->
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" />
+  <link rel="stylesheet" type="text/css" href="./index.css" />
+  
+  <style>
+    /* Base styles are now handled by the external CSS files (swagger-ui.css and index.css).
+    */
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 2. The div where Swagger UI will be rendered -->
+  <div id="swagger-ui">
+    <!-- 
+      Simple loading message.
+      The JS files below will overwrite the content of this div.
+    -->
+    <div style="text-align: center; padding: 50px; font-size: 1.2rem; font-family: sans-serif;">
+      Loading API Documentation...
+    </div>
+  </div>
+
+  <!-- 3. Import local JavaScript files -->
+  <!-- 
+    FIX: Pointing to the .js files (without .download) as they appear
+    in your latest uploaded file list.
+  -->
+  <script src="./swagger-ui-bundle.js" charset="UTF-8"></script>
+  <script src="./swagger-ui-standalone-preset.js" charset="UTF-8"></script>
+
+  <!-- 
+    4. Initialize Swagger UI using the external initializer file.
+       This is cleaner than inline script.
+  -->
+  <script src="./swagger-initializer.js" charset="UTF-8"></script>
+
+</body>
+</html>
+
+
